@@ -2,7 +2,7 @@ game.js
 
 // define variables
 // var alpabetArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-var answerArray = ["Schwarzenegger", "Dicaprio", "Bridges", "Eastwood", "Jackson"];
+var answerArray = ["Devin Hester", "Derrick Rose", "Tiger Woods", "Bo Jackson", "Michael Jordan"];
 var computerGuess = answerArray[Math.floor(Math.random() * answerArray.length)];
 var star = computerGuess.toLowerCase();
 var wins = 0;
@@ -73,7 +73,7 @@ document.onkeyup = function (event) {
                 computerGuess = answerArray[Math.floor(Math.random() * answerArray.length)];
                 star = computerGuess.toLowerCase();
                 hidden = setHidden();
-                alert("Congrats you won!");
+                alert("YOU WINNN!!!");
             }
         }
         // display to html
